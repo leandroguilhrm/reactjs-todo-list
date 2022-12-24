@@ -1,0 +1,29 @@
+.taskInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalTasks,
+.totalCompletedTasks {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.062rem;
+    color: var(--blue);
+}
+
+.totalCompletedTasks {
+    color: var(--purple);
+}
+
+.totalTasks span,
+.totalCompletedTasks span {
+    padding: 0.125rem 0.5rem;
+    margin-left: 0.625rem;
+
+    background: var(--gray-400);
+    border-radius: 999px;
+
+    color: var(--gray-200);
+    font-size: 0.75rem;
+    line-height: 0.907rem;
+}
